@@ -18,5 +18,6 @@ public class Open_Google {
 	driver.manage().window().maximize();
 	driver.get("https://www.google.co.in/");
 	driver.findElement(By.id("APjFqb")).sendKeys("Krishna",Keys.ENTER);
+	driver.quit();
 	}
 }
