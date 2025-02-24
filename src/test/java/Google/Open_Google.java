@@ -13,7 +13,7 @@ public class Open_Google {
 	WebDriver driver;
 
 	@Test
-	public void Google_Jenkins() {
+	public void Google() {
 
 		WebDriverManager.chromedriver().setup();
 		driver =new ChromeDriver();
